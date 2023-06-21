@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\windows">
+      <UniqueIdentifier>{7c2ca694-2f88-43e9-80c6-d9337b64732b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\windows">
+      <UniqueIdentifier>{20e88358-4b20-4eea-880e-3d16cffdeb7c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\device.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\devicemanager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mmc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mmcdevice.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scsidevice.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scsidriverselector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scsisilencer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\windows\aspidriver.cc">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\windows\sptidriver.cc">
+      <Filter>Source Files\windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\ckmmc\device.hh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\ckmmc\devicemanager.hh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\ckmmc\mmc.hh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\ckmmc\mmcdevice.hh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\ckmmc\scsidevice.hh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\ckmmc\scsidriver.hh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\ckmmc\scsidriverselector.hh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\ckmmc\scsisilencer.hh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\ckmmc\util.hh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="include\ckmmc\windows\aspidriver.hh">
+      <Filter>Header Files\windows</Filter>
+    </None>
+    <None Include="include\ckmmc\windows\sptidriver.hh">
+      <Filter>Header Files\windows</Filter>
+    </None>
+  </ItemGroup>
+</Project>
